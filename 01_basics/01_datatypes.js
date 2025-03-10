@@ -4,6 +4,7 @@ console.log(typeof("Pratyush"));
 console.log(typeof(null));
 console.log(typeof(undefined));
 
+//refrence or non premitive type.... 
 // Arrays
 
 let pirates=["Luffy","Shanks","Zoro"]; 
