@@ -4,12 +4,15 @@ console.log(typeof("Pratyush"));
 console.log(typeof(null));
 console.log(typeof(undefined));
 
-let pirates=["Luffy","Shanks","Zoro"]; // Arrays
+// Arrays
 
+let pirates=["Luffy","Shanks","Zoro"]; 
+
+//Objects......
 let King={
     Name :"Luffy",
     bounty: "5 Billion",
-}    //Objects......
+}    
 
 console.log(pirates);
 console.log(King.Name);
