@@ -11,7 +11,7 @@ console.log(gameName.length); // 4
 console.log(gameName.toLowerCase()); //rdr2
 console.log(gameName.charAt(2));//R
 console.log(gameName.indexOf('R'));//0
-console.log(gameName[3]); // 2
+console.log(gameName[3]); // 2        
 */
 //Substring and slicing...
 /*
@@ -27,7 +27,18 @@ console.log(slice2);
 //Trim - Removes all starting and end spaces...
 
 const king= "       I am Monkey D Luffy.        "
-console.log(king.trim());
-console.log(king);
+console.log(king.trim()); //        I am Monkey D Luffy.        
+console.log(king); // I am Monkey D Luffy.
+
+//replace....
+
+const url = "https://onepiece.com/one%20piece"
+
+console.log(url.replace('%20','-'));
+
+//includes - Check if something is included in string or not.
+// Split - Split the strings on basis of spaces.
+
+
 
 
