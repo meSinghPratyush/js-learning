@@ -31,9 +31,16 @@ function calculateCartPrice(...price){
     userID:"2470237"
  }
  function userDetails(object1){
-    console.log(`Username is : ${object1.username} and userID is :${object1.userID}`);
+    //console.log(`Username is : ${object1.username} and userID is :${object1.userID}`);
     
  }
 
  //userDetails(user);
 
+ //Another way to declare functions...
+
+ const addtwo=function(num){
+    return num+2;
+ }
+ console.log(addtwo(5));
+  
