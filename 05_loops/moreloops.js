@@ -18,7 +18,7 @@ for (const word of greetings) {
     
 }
 //maps datatype...
-
+//Map is not iteratable.....
 const map=new Map()
 map.set('IN',"INDIA")
 map.set('USA',"UNITED STATES OF AMERICA")
