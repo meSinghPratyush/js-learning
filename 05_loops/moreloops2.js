@@ -32,3 +32,42 @@ for (const key in map) {
     //console.log(key); //not iteratable....
     
 }
+
+//for Each loop....
+//higher order functions...
+
+const teams=["Barca","Madrid","Man city","Man united"]
+
+teams.forEach( function (val){
+    //console.log(val);
+    
+})
+
+//print me function....
+
+function printme(item){
+   // console.log(item);
+    
+}
+//teams.forEach(printme)
+
+//array of objects in for each...
+
+const mycoding=[
+    {
+        language:"JavaScript",
+        Filename:"JS"
+    },
+    {
+        language:"java",
+        Filename:"java"
+    },
+    {
+        language:"Python",
+        Filename:"py"
+    }
+
+]
+mycoding.forEach( (item)=>{
+    console.log(item.language,item.Filename);
+})
